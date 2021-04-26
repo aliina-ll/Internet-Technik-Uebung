@@ -1,0 +1,116 @@
+
+#wrapper{
+    width: 80%;
+    min-width: 600px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: gainsboro;
+    font-family: 'Century Gothic';
+}
+
+body{
+    background: url(../Bilder/pexels-alan-cabello-614115.jpg);
+    background-repeat:repeat-x;
+}
+
+header{
+    height: 170px;
+    width: 100%;
+    background-color: white;
+}
+
+header img{
+    margin-left: 30%;
+    margin-right: 40%;
+    margin-top: 10px;
+    width: 40%;
+    height: 150px;
+}
+
+
+nav {
+    background-color: black;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 1.2em;
+    
+ }
+
+a{
+    color: white;
+    display: inline-block;
+    width: 22%;
+    border-style: solid;
+    border-width: thin;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    
+}
+
+a:hover{
+    color:palevioletred;
+}
+
+article{
+    margin-bottom: 25px;
+    clear: both;
+    font-size: 1.2em;
+}
+
+article p1{
+    text-align: left;
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-family: sans-serif;
+    float: left;
+}
+
+article img{
+    width: 30%;
+    height: 25%;
+    padding-top: 20px;
+}
+
+p{
+    font-family: fantasy;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+section{
+    height: 600px;
+    padding: 25px 0px 25px 50px;
+    background-color: white;
+    margin-top: 1,6%;
+    
+}
+
+h1{
+    font-size: 1em;
+    text-align: left;
+}
+
+h2{
+    font-size: 1.1em;
+    text-align: left;
+
+}
+
+footer address{
+    height: 50px;
+    clear: both;
+    background-color:  black;
+    text-align: right;
+    font-size: 0.9em;
+    font-style: normal;
+    padding: 12px;
+    border-top: 3px solid white;
+    color: gainsboro;
+}
+
